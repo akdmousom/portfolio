@@ -13,3 +13,5 @@ I chose react for develop fronent and i add tailwind css library, and daisyUI it
 - I add [tailwind](https://tailwindcss.com/docs/installation) css library and [daisyUI](https://daisyui.com/docs/install/) component library. For user interface design.
 
 - I add [prop-type](https://www.npmjs.com/package/prop-types) for props validation.
+
+- I add [tsparticles] (https://www.npmjs.com/package/tsparticles) for the animation.
