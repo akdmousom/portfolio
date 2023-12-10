@@ -6,4 +6,8 @@ I chose react for develop fronent and i add tailwind css library, and daisyUI it
 
 - I chose `yarn` because it's faster & secure then node package manager. Install [YARN](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable "Click and install yarn")
 
+### What package did I use for this project?
+
 - I add `react-helmet-async `package for changing title for every page.
+
+- I add [tailwind](https://tailwindcss.com/docs/installation) css library and [daisyUI](https://daisyui.com/docs/install/) component library. For user interface design.
