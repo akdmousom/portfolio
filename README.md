@@ -14,4 +14,4 @@ I chose react for develop fronent and i add tailwind css library, and daisyUI it
 
 - I add [prop-type](https://www.npmjs.com/package/prop-types) for props validation.
 
-- I add [tsparticles](https://www.npmjs.com/package/tsparticles) for the animation.
+- I add [tsparticles](https://github.com/tsparticles/react/#readme) for the animation.

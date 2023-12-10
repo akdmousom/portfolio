@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/react": "^3.0.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "prop-types": "^15.8.1",
@@ -17,8 +18,7 @@
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.3",
     "react-router-dom": "^6.20.1",
-    "sort-by": "^1.2.0",
-    "tsparticles": "^3.0.2"
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
