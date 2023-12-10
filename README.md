@@ -5,3 +5,5 @@ I chose react for develop fronent and i add tailwind css library, and daisyUI it
 ### Which package manager i use for this project?
 
 I chose `yarn` because it's faster & secure then node package manager
+
+[YARN](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable "Click and install yarn").
