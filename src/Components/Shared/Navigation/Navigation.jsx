@@ -12,10 +12,18 @@ const Navigation = () => {
       duration={500} >About Me</Link></li>
 
 
+
+    <li><Link to="skills" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} >skills</Link></li>
+
+
     </>
 
     return (
-        <div className="navbar bg-transparent">
+        <div className="navbar  bg-transparent">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

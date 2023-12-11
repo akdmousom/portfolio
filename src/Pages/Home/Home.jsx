@@ -35,44 +35,134 @@ const Home = () => {
                     <div className=" relative  grid items-center justify-center top-[220px]  ">
                         <img className="h-[200px] w-[200px] rounded-full object-cover" src={Arijit} alt="" />
                         <img className="h-[55px] absolute left-36 top-36 " src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" />
-                       
-                        
-                       
+
+
+
 
                     </div>
                     <h1 className="text-2xl font-bold relative top-[220px] text-center left-[0%]">Arijit Kumar Das</h1>
-                        
-                    
+
+
                 </div>
 
             </div>
 
             <section className="my-32" id="about">
                 <div data-aos="fade-up">
-                    <h1  className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">About Me</h1>
-                    
+                    <h1 className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">About Me</h1>
+
                     <p className=" text-center text-xl ">Who am I?</p>
                 </div>
 
                 <div className="max-w-[1200px] mx-auto my-20">
                     <div className="flex flex-col lg:flex-row gap-6 items-center">
 
-                        <img data-aos="fade-up"   className=" h-[300px] border-4 rounded-lg  object-cover" src={Arijit} alt="" />
-                       
+                        <img data-aos="fade-up" className=" h-[300px] border-4 rounded-lg  object-cover" src={Arijit} alt="" />
 
-                        <div className="grid gap-4">
-                        <h4 data-aos="fade-up" className="text-2xl font-bold">I&apos;m Arijit Kumar Das</h4>
-                        <p data-aos="fade-up" >I&apos;m an enthusiastic front-end developer. I mostly do front-end development with React. Moreover, I have worked with the backend in the past few months I used many web technologies for developing the frontend and backend. <br /> <br />
-                        As a front-end developer, I always prefer working with React. Moreover, In my MERN Stack journey, I learned many technologies like ReactJS, MongoDB, NodeJS, ExpressJS, Mongoose, NextJS, Tailwind, Bootstrap, and SASS.</p>
-                        <div className="flex gap-2" data-aos="fade-up">
-                        <Link to={'https://www.linkedin.com/in/contact-arijit/'}><button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
-                       <a href={Resume}><button className="btn btn-outline btn-info"> Download Resume <FaLinkedin /></button></a>
-                        </div>
+
+                        <div className="grid gap-4 px-2">
+                            <h4 data-aos="fade-up" className="text-2xl font-bold">I&apos;m Arijit Kumar Das</h4>
+                            <p data-aos="fade-up" >I&apos;m an enthusiastic front-end developer. I mostly do front-end development with React. Moreover, I have worked with the backend in the past few months I used many web technologies for developing the frontend and backend. <br /> <br />
+                                As a front-end developer, I always prefer working with React. Moreover, In my MERN Stack journey, I learned many technologies like ReactJS, MongoDB, NodeJS, ExpressJS, Mongoose, NextJS, Tailwind, Bootstrap, and SASS.</p>
+                            <div className="flex gap-2" data-aos="fade-up">
+                                <Link to={'https://www.linkedin.com/in/contact-arijit/'}><button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
+                                <a href={Resume}><button className="btn btn-outline btn-info"> Download Resume <FaLinkedin /></button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-           
+
+            <section className="my-32" id="skills">
+                <div data-aos="fade-up">
+                    <h1 className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">My Skills</h1>
+
+                </div>
+
+                <div className="max-w-[1200px] px-2 mx-auto my-20">
+                    <div className="flex flex-col gap-4 lg:flex-row justify-between">
+                        <div data-aos="fade-right" className=" lg:w-2/4 space-y-4 ">
+                            <h1 className="text-2xl text-center lg:text-left">skills & experiences.</h1>
+                            <p className=" text-center lg:text-left">I am a junior front end developer. I have been working for the past few months I have learned a lot in my journey like reactjs , mongodb , nodejs , expressjs , tailwind , SASS , nextjs , material UI basically I am a frontend developer but I am also able to do backend work for backend related task i use mongoose or express js</p>
+                        </div>
+                        <div data-aos="fade-up" className="lg:w-2/4 h-auto">
+                            <div className="flex justify-between">
+                                <p>React</p>
+                                <p> 70%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="70" max="100">
+
+                            </progress>
+                            <div className="flex justify-between">
+                                <p>Mongo DB</p>
+                                <p> 70%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="70" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>Express JS</p>
+                                <p>   60%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="60" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>Node JS</p>
+                                <p> 45%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="45" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>Tailwind CSS</p>
+                                <p> 95%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="95" max="100">
+
+                            </progress>
+                            <div className="flex justify-between">
+                                <p>JavaScript</p>
+                                <p>70%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="70" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>SASS</p>
+                                <p>70%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="70" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>CSS</p>
+                                <p>70%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="70" max="100">
+
+                            </progress>
+
+                            <div className="flex justify-between">
+                                <p>HTML</p>
+                                <p>85%</p>
+                            </div>
+                            <progress className="progress progress-primary " value="85" max="100">
+
+                            </progress>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
 
 
 
