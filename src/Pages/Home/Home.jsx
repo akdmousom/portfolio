@@ -8,6 +8,9 @@ import 'aos/dist/aos.css';
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Resume from "../../assets/Resume/dummy.pdf"
+import building from '../../assets/Imeges/building-management.png'
+import study from '../../assets/Imeges/online-study.png'
+import brand from '../../assets/Imeges/brand-shop.png'
 
 const Home = () => {
     AOS.init();
@@ -161,6 +164,57 @@ const Home = () => {
 
                     </div>
                 </div>
+            </section>
+
+            <section className="my-36" id="projects">
+
+            <div data-aos="fade-up">
+                    <h1 className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">My Projects</h1>
+
+                </div>
+
+                <div className="max-w-[1200px] mt-10 grid gap-4 mx-auto">
+               
+                <div data-aos="fade-up" className="hero min-h-[500px]  ">
+                    <div className="hero-content flex-col lg:flex-row">
+                        <img src={building} className=" lg:max-w-sm rounded-lg shadow-2xl" />
+                        <div>
+                            <h1 className="text-2xl font-bold">Buuilding Managenent System</h1>
+                            <p className="py-6">With this web application you can do all the deal of your building. By using this application you can take your monthly rent online from anywhere in the country. You can post all your announcements using this website. I am still working on it, more work to be done</p>
+                            <Link to={'https://building-management-syst-40685.web.app/'}><button className="btn btn-primary">Live</button></Link> 
+                        </div>
+                    </div>
+                    </div>
+
+                    <div data-aos="fade-up"  className="hero min-h-[500px] ">
+                    <div className="hero-content flex-col lg:flex-row">
+                        <img src={study} className="lg:max-w-sm rounded-lg shadow-2xl" />
+                        <div>
+                            <h1 className="text-2xl font-bold">Online Group Study</h1>
+                            <p className="py-6">This is an educational website, you can easily share your assignments with your friends through this website, mark your assignments and you can give mark and comment from here.</p>
+                            <Link to={'https://online-study-application.web.app/'}><button className="btn btn-primary">Live</button></Link> 
+                        </div>
+                    </div>
+                    </div>
+
+                    <div data-aos="fade-up" className="hero min-h-[500px] ">
+                    <div className="hero-content flex-col lg:flex-row">
+                        <img  src={brand} className="lg:max-w-sm rounded-lg object-cover shadow-2xl" />
+                        <div>
+                            <h1 className="text-2xl font-bold">Beautify</h1>
+                            <p className="py-6">You can get all information about ladis beauty product in this site this site gather information about all brands and then this site provide all information who visit this site </p>
+                            <Link to={'https://building-management-syst-40685.web.app/'}><button className="btn btn-primary">Live</button></Link> 
+                        </div>
+                    </div>
+                    </div>
+
+
+
+
+
+                </div>
+                
+
             </section>
 
 
