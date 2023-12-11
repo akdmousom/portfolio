@@ -18,11 +18,18 @@ const Navigation = () => {
       smooth={true} 
       offset={50} 
       duration={500} >skills</Link></li>
+
     <li><Link to="projects" 
       spy={true} 
       smooth={true} 
       offset={50} 
       duration={500} >projects</Link></li>
+
+    <li><Link to="contact" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} >contact</Link></li>
 
 
     </>

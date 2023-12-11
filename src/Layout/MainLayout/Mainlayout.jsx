@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import Footer from '../../Components/Shared/Footer/Footer';
 const Mainlayout = ({children}) => {
     return (
         <div className=' font-Poppins'>
@@ -7,6 +8,7 @@ const Mainlayout = ({children}) => {
           </div>
            
            <section> {children}</section>
+           <Footer></Footer>
         </div>
     );
 };

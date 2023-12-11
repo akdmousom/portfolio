@@ -11,6 +11,8 @@ import Resume from "../../assets/Resume/dummy.pdf"
 import building from '../../assets/Imeges/building-management.png'
 import study from '../../assets/Imeges/online-study.png'
 import brand from '../../assets/Imeges/brand-shop.png'
+import { Contact } from "../../Components/Contact/Contact";
+
 
 const Home = () => {
     AOS.init();
@@ -214,6 +216,18 @@ const Home = () => {
 
                 </div>
                 
+
+            </section>
+
+
+            <section className="my-36" id="contact">
+            <div data-aos="fade-up">
+                    <h1 className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">Contact Me</h1>
+
+                </div>
+           
+
+                <Contact/>
 
             </section>
 
