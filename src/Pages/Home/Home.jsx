@@ -41,9 +41,13 @@ const Home = () => {
 
             </div>
 
-            <section className="my-96">
-                <h1>about</h1>
+            <section className="my-32">
+                <div>
+                    <h1 className="text-center font-bold text-2xl lg:text-4xl">About Me</h1>
+                    <p className=" text-justify">Who am I?</p>
+                </div>
             </section>
+           
 
 
 

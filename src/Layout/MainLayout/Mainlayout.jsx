@@ -1,7 +1,4 @@
 import PropTypes from 'prop-types'
-import Navigation from '../../Components/Shared/Navigation/Navigation';
-
-
 const Mainlayout = ({children}) => {
     return (
         <div className=' font-Poppins'>
