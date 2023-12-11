@@ -6,8 +6,10 @@ const Home = () => {
         <div>
             <div className="z-[-10] bg-gradient-to-r from-[#c2e59c] to-[#64b3f4]  absolute w-full top-[-10px]">
                 <Particle />
-                <div className=" absolute bottom-2/4 w-full mx-auto text-center">
-                    <h1>Welcome to my profile</h1>
+                <div className=" absolute grid gap-2 bottom-[40%] w-full mx-auto text-center">
+                    <h1 className=" text-xl  lg:text-4xl">Hi there I&apos;m <span className="font-bold">Arijit Kumar Das</span></h1>
+                    <h1 className=" text-xl  lg:text-4xl">I&apos;m an enthusiastic<span className="font-bold"> Frontend Developer</span></h1>
+     
 
                 </div>
 
