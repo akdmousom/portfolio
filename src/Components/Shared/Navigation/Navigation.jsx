@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../../../assets/Imeges/Logo.png"
 import { Link } from "react-scroll";
 const Navigation = () => {
@@ -45,7 +46,7 @@ const Navigation = () => {
                        {navItem}
                     </ul>
                 </div>
-                <div><a className=" hidden lg:block text-xl"><img width={60} src={Logo} alt="" /></a></div>
+                <div><NavLink to={'/'} className=" hidden lg:block text-xl"><img width={60} src={Logo} alt="" /></NavLink ></div>
             </div>
             <div className="navbar-end lg:hidden"><a className="btn btn-ghost text-xl"><img width={60} src={Logo} alt="" /></a></div>
             <div className="navbar-end hidden lg:flex">

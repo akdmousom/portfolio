@@ -20,7 +20,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>AKD | Home</title>
+                <title>AKD</title>
             </Helmet>
 
 
@@ -54,6 +54,7 @@ const Home = () => {
             </div>
 
             <section className="my-32" id="about">
+            
                 <div data-aos="fade-up">
                     <h1 className="text-center font-bold w-full border-b-red-600 text-2xl lg:text-4xl">About Me</h1>
 
@@ -66,10 +67,21 @@ const Home = () => {
                         <img data-aos="fade-up" className=" h-[300px] border-4 rounded-lg  object-cover" src={Arijit} alt="" />
 
 
-                        <div className="grid gap-4 px-2">
+                        <div className="grid space-y-2 px-2">
+                            <div>
                             <h4 data-aos="fade-up" className="text-2xl font-bold">I&apos;m Arijit Kumar Das</h4>
                             <p data-aos="fade-up" >I&apos;m an enthusiastic front-end developer. I mostly do front-end development with React. Moreover, I have worked with the backend in the past few months I used many web technologies for developing the frontend and backend. <br /> <br />
-                                As a front-end developer, I always prefer working with React. Moreover, In my MERN Stack journey, I learned many technologies like ReactJS, MongoDB, NodeJS, ExpressJS, Mongoose, NextJS, Tailwind, Bootstrap, and SASS.</p>
+                                As a front-end developer, I always prefer working with React. Moreover, In my MERN Stack journey, I learned many technologies like ReactJS, MongoDB, NodeJS, ExpressJS, Mongoose, NextJS, Tailwind, Bootstrap, and SASS.
+                                <br /><br />
+                                <b>Experiences</b>
+                                <p> IT Executive at BD Engineering Solution <b>(May 2021 - Nov 2022 · 1 yr 7 mos)</b></p>
+                                <br />
+                                <p> WordPress developer & SEO Expert at SEO Expate Bangladesh Ltd <b>(Jan 2020 - May 2021 · 1 yr 5 mos)</b></p>
+                                <br />
+                                <b>Education</b>
+                                <p> I am a computer science and engineering student of Uttara University <b>(Present)</b></p>
+                                </p>
+                            </div>
                             <div className="flex gap-2" data-aos="fade-up">
                                 <Link to={'https://www.linkedin.com/in/contact-arijit/'}>
                                     <button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
@@ -81,6 +93,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
 
             <section className="my-32" id="skills">
                 <div data-aos="fade-up">
