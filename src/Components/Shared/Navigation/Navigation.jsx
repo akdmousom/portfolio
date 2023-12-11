@@ -1,10 +1,15 @@
 import Logo from "../../../assets/Imeges/Logo.png"
+import { Link } from "react-scroll";
 const Navigation = () => {
 
     const navItem = <>
     
-    <li><a>Home</a></li>
-    <li><a>About Me</a></li>
+    <li><Link to="hero">Home</Link></li>
+    <li><Link to="about" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} >About Me</Link></li>
 
 
     </>

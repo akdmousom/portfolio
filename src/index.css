@@ -3,10 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+/* html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-}
+} */
 
 section{
     height: 100vh;

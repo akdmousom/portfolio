@@ -16,4 +16,8 @@ I chose react for develop fronent and i add tailwind css library, and daisyUI it
 
 - I add [tsparticles](https://github.com/tsparticles/react/#readme) for the animation.
 
-- I add [react-scroll](https://www.npmjs.com/package/react-scroll) for smooth scroll
+- I add [react-scroll](https://www.npmjs.com/package/react-scroll) for smooth scroll.
+
+- I add [AOS](https://github.com/michalsnik/aos) for div section animation.
+
+- I add [react-icon](https://react-icons.github.io/react-icons/) for icons.
