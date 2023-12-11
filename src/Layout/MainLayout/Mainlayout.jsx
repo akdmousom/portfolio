@@ -6,10 +6,10 @@ const Mainlayout = ({children}) => {
     return (
         <div className=' font-Poppins'>
           <div className='max-w-[1200px] mx-auto'>
-          <Navigation/>
+          
           </div>
            
-            {children}
+           <section> {children}</section>
         </div>
     );
 };
