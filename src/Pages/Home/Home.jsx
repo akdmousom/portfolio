@@ -12,6 +12,7 @@ import building from '../../assets/Imeges/building-management.png'
 import study from '../../assets/Imeges/online-study.png'
 import brand from '../../assets/Imeges/brand-shop.png'
 import { Contact } from "../../Components/Contact/Contact";
+import { FaGithub } from "react-icons/fa";
 
 
 const Home = () => {
@@ -70,7 +71,10 @@ const Home = () => {
                             <p data-aos="fade-up" >I&apos;m an enthusiastic front-end developer. I mostly do front-end development with React. Moreover, I have worked with the backend in the past few months I used many web technologies for developing the frontend and backend. <br /> <br />
                                 As a front-end developer, I always prefer working with React. Moreover, In my MERN Stack journey, I learned many technologies like ReactJS, MongoDB, NodeJS, ExpressJS, Mongoose, NextJS, Tailwind, Bootstrap, and SASS.</p>
                             <div className="flex gap-2" data-aos="fade-up">
-                                <Link to={'https://www.linkedin.com/in/contact-arijit/'}><button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
+                                <Link to={'https://www.linkedin.com/in/contact-arijit/'}>
+                                    <button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
+                                    <Link to={'https://github.com/akdmausom'}>
+                                    <button className="btn btn-outline btn-info"> GitHub <FaGithub /></button></Link>
                                 <a href={Resume}><button className="btn btn-outline btn-info"> Download Resume <FaLinkedin /></button></a>
                             </div>
                         </div>

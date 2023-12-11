@@ -30,11 +30,11 @@ export const Contact = () => {
 
  <div  className=''>
 <div className="hero object-cover">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+  <div className="hero-content flex-col-reverse lg:flex-row-reverse">
     <div className="text-center lg:text-left">
-      <h1 className="text-2xl font-bold">Hire Me</h1>
-      <p className="py-6 flex items-center gap-2"><MdOutlineAlternateEmail /> Email: contact.mousom@gmail.com</p>
-      <p className="py-6 flex items-center gap-2"><FaWhatsapp />WhatsApp: +8801617050510</p>
+      <h1 className="text-2xl text-center mt-8 font-bold">Hire Me</h1>
+      <p className="py-6 flex  justify-center items-center gap-2"><MdOutlineAlternateEmail /> Email: contact.mousom@gmail.com</p>
+      <p className="py-6 flex justify-center items-center gap-2"><FaWhatsapp />WhatsApp: +8801617050510</p>
     </div>
     <div className="card shadow-2xl bg-base-100">
       <form ref={form} onSubmit={sendEmail} className="card-body">
