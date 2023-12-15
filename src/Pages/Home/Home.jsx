@@ -85,7 +85,7 @@ const Home = () => {
                             <div className="flex gap-2" data-aos="fade-up">
                                 <Link to={'https://www.linkedin.com/in/contact-arijit/'}>
                                     <button className="btn btn-outline btn-info"> Linkedin <FaLinkedin /></button></Link>
-                                    <Link to={'https://github.com/akdmausom'}>
+                                    <Link to={'https://github.com/akdmousom'}>
                                     <button className="btn btn-outline btn-info"> GitHub <FaGithub /></button></Link>
                                 <a href={Resume}><button className="btn btn-outline btn-info"> Download Resume <FaLinkedin /></button></a>
                             </div>
