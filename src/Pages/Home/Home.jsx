@@ -222,7 +222,7 @@ const Home = () => {
                         <div>
                             <h1 className="text-2xl font-bold">Beautify</h1>
                             <p className="py-6">You can get all information about ladis beauty product in this site this site gather information about all brands and then this site provide all information who visit this site </p>
-                            <Link to={'https://building-management-syst-40685.web.app/'}><button className="btn btn-primary">Live</button></Link> 
+                            <Link to={'https://brand-shop-1a15e.web.app/'}><button className="btn btn-primary">Live</button></Link> 
                         </div>
                     </div>
                     </div>
